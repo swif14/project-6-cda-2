@@ -1,0 +1,264 @@
+body {
+    background-color: #2B2B2B;
+    font-family: "Work sans";
+}
+
+@font-face {
+    font-family: "Work sans";
+    src: url("fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family:"Space mono" ;
+    src: url("fonts/SpaceMono-Regular.ttf");
+}
+
+.signup {
+    width: 152px;
+    height: 60px;
+    gap: 12px;
+    border-radius: 20px ;
+    background-color: #A259FF;
+    border: 0;
+    outline: none;
+    font-family: "Work sans";
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    background-image: url("User.png");
+    background-repeat: no-repeat;
+    background-position:20px center;
+    padding-left: 10px;
+}
+
+.nav-item {
+    margin-left:40px;
+}
+
+.Top {
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56.1px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+}
+
+.ptext1 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left;
+    color: rgb(187, 187, 187);
+}
+
+.ptext2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    text-align: center;
+    color: white;
+}
+
+.botoom {
+    border-bottom: 2px solid #858584;
+}
+
+.ptext3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    text-align: center;
+    color: #858584;
+}
+
+.btnn3 {
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+}
+
+.ptext4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #858584;
+}
+
+.ptext5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #858584;
+}
+
+.backs {
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+
+.num1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:#2B2B2B;
+    text-align: center;
+    padding-top: 2px;
+    color: #858584;
+    margin-top:14px ;
+}
+
+.ptex2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #00AC4F;
+    margin-left: 70px;
+    margin-top: 16px;
+}
+
+
+.ptex1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    text-align: left;
+    color: white;
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 290px;
+}
+
+.numbers {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: white;
+    margin-left: 247px;
+    margin-top: 14px;
+}
+
+.numberss {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: white;
+    margin-left: 140px;
+    margin-top: 14px;
+}
+
+.ptag4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #CCCCCC;
+}
+
+.ptag5 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: left;
+    color: white;
+    font-family: "Space mono";
+}
+
+.label {
+   position: relative;
+   margin-top: 13px;
+}
+
+.input4 {
+   width: 425px;
+   height: 60px;
+   gap: 12px;
+   border-radius: 20px ;
+   outline: none;
+   border: 0;
+   padding-left: 20px;
+}
+
+
+
+.btnn1 {
+   position: absolute;
+   top: 0;
+   right: 0;
+   background-color: #A259FF;
+   color: white;
+   width: 211px;
+   height: 60px;
+   gap: 12px;
+   border-radius: 20px;
+   outline: none;
+   border: 0;
+   background-image: url("EnvelopeSimple.png");
+   background-repeat: no-repeat;
+   background-position: 25px center;
+   padding-left: 20px;
+}
+
+.greyy {
+    background-color: #3B3B3B;
+    border-top: 3px solid #2B2B2B;
+   }
+
+   .d-flex {
+    margin-left: 10px;
+}
+
+@media screen  and (max-width:768px) {
+    
+.ptex1 {
+    font-size: 16px;
+    width: 230px;
+}
+
+.img1 {
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+}
+
+.num1 {
+    width: 24px;
+    height: 24px;
+    margin-top: 14px;
+    background-color: #3B3B3B;
+}
+
+.ptex2 {
+    display: none;
+}
+
+.numbers {
+    display: none;
+}
+
+.numberss {
+    font-size: 12px;
+    margin: 0;
+    margin-top: 18px;
+}
+
+.btnn1 {
+    width: 315px;
+    margin-top: 65px;
+}
+
+.input4 {
+    width: 315px;
+}
+
+.ptext5 {
+    margin-left: 200px;
+}
+
+.d-flex {
+    margin-left: 10px;
+}
+    
+}
